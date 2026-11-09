@@ -6,7 +6,8 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       origin: [
-        'https://jahna-lagne.github.io',
+         'https://jahna-lagne.github.io',
+         'http://localhost:59572',
       ],
       methods: ['GET', 'HEAD', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
